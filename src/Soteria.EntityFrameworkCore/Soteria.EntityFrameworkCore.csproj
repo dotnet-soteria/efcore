@@ -9,4 +9,8 @@
     <DocumentationFile>docs.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Soteria.EntityFrameworkCore.Abstractions\Soteria.EntityFrameworkCore.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>
