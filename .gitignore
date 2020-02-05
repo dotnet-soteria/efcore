@@ -8,3 +8,6 @@ bin
 
 # User Configurations
 *.csproj.user
+
+# Auto-Generated Documentation Files
+src/**/docs.xml
