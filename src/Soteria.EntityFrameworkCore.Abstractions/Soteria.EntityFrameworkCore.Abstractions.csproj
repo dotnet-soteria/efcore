@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Authors>Soteria</Authors>
+    <Product>Soteria.EntityFrameworkCore</Product>
+    <RepositoryUrl>https://github.com/dotnet-soteria/efcore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>abstractions efcore security owasp idor</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
