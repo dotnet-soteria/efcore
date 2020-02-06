@@ -16,7 +16,7 @@ namespace Soteria.EntityFrameworkCore.Extensions
 		public static ModelBuilder AddInsecureDirectObjectReferenceProtection(this ModelBuilder builder)
 		{
 			var module = new IdorModule(builder);
-			module.Initialize();
+			module.Build();
 
 			return builder;
 		}

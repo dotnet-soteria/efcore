@@ -11,6 +11,6 @@ namespace Soteria.EntityFrameworkCore.Modules
 
 		protected ModelBuilder Builder { get; }
 
-		public abstract void Initialize();
+		public abstract void Build();
 	}
 }
