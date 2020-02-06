@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Soteria.EntityFrameworkCore.Abstractions
+namespace Soteria.EntityFrameworkCore.Abstractions.Entities
 {
 	/// <summary>
 	/// Prevents Insecure Direct Object Reference (IDOR) from occurring whilst retaining the inherent indexing benefits from sequential identifiers.

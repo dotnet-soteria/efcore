@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Soteria.EntityFrameworkCore.Abstractions;
+using Soteria.EntityFrameworkCore.Abstractions.Entities;
 using System;
 using System.Linq;
 
