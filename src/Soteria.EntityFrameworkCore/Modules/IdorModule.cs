@@ -29,7 +29,10 @@ namespace Soteria.EntityFrameworkCore.Modules
 					var schema = e.GetSchema();
 					var identifier = resolver.ResolveName(table, schema, e.ClrType);
 
-					_ = entity.Property(identifier);
+					_ = entity.Property(identifier).ValueGeneratedOnAdd();
+
+					entity.HasKey(identifier);
+					entity.HasIndex(nameof(IIdorInterceptor.Id)).IsUnique();
 
 					return e;
 				});
